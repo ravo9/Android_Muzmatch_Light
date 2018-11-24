@@ -2,9 +2,9 @@ package development.dreamcatcher.muzmatchlight.Models
 
 class Message {
 
-    var id: Int? = null
+    val id: Int
     var messageText: String? = null
-    var isOwnMessage: Boolean? = null
+    val isOwnMessage: Boolean
 
     constructor(id: Int, messageText: String, isOwnMessage: Boolean) {
         this.id = id

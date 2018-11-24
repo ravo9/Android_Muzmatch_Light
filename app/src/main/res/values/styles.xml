@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Badge">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="BadgeLeftText" parent="Badge">
+        <item name="android:textColor">@color/badgeTextLeft</item>
+    </style>
+
+    <style name="BadgeRightText" parent="Badge">
+        <item name="android:textColor">@color/badgeTextRight</item>
+    </style>
+
+    <style name="BadgeUniversal" parent="Badge">
+        <item name="android:textColor">@color/badgeTextUniversal</item>
+    </style>
+
 </resources>
