@@ -12,7 +12,6 @@
         android:top="3dp" />
 
     <corners
-        android:radius="20px"
-        android:topLeftRadius="0px" />
+        android:radius="20px" />
 
 </shape>
